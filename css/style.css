@@ -314,8 +314,11 @@ button {
     height: 100%;
     min-height: 350px;
     overflow: hidden;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--gray-color);
     cursor: pointer;
+}
+
+.portfolio_wrapper .card:hover {
     box-shadow: 0 0 15px 0 var(--primary-color);
 }
 

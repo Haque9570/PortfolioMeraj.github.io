@@ -46,6 +46,9 @@
         margin: auto;
     }
     /* Portfolio */
+    .portfolio_wrapper .card {
+        min-height: 650px;
+    }
 }
 
 @media(max-width:450px) {
@@ -81,5 +84,9 @@
     }
     .about_wrapper ul li .nav-link {
         font-size: 13px;
+    }
+    /* Portfolio */
+    .portfolio_wrapper .card {
+        min-height: 400px;
     }
 }
