@@ -23,7 +23,7 @@
     --bg-white: white;
     --gray-color: gray;
     --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #0080b3 100%);
-    --gradient-color: linear-gradient(120deg, #0080b3 20.69%, violet 50.19%, var(--primary-color) 79.69%);
+    --gradient-color: linear-gradient(120deg, #f7aeae 20.69%, #EA8D8D 50.19%, var(--primary-color) 79.69%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1);
     /* Text Color*/
     --primary-font: 'Poopins', sans-serif;
@@ -58,6 +58,7 @@ a {
 
 section {
     padding: 50px 0;
+    background-color: var(--bg-dark-blue);
 }
 
 .main-btn {
@@ -110,11 +111,10 @@ h3 {
 
 h6 {
     font-size: 15px;
-    text-transform: uppercase;
     letter-spacing: 4px;
     display: block;
     color: var(--text-white);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -240,10 +240,6 @@ button {
 
 /* 4. About */
 
-.about_wrapper {
-    background-color: var(--bg-dark-blue);
-}
-
 .about_wrapper img:hover {
     box-shadow: 0 1px 20px 0 var(--primary-color);
 }
@@ -309,4 +305,28 @@ button {
     font-weight: 500;
     display: block;
     color: var(--text-gray);
+}
+
+
+/* 5. Portfolio */
+
+.portfolio_wrapper .card {
+    height: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0 0 15px 0 var(--primary-color);
+}
+
+.portfolio_wrapper .card span {
+    transition: background-position 4s ease-in-out 0s;
+    width: 100%;
+    height: 100%;
+    background-position: top-center;
+    background-size: cover;
+}
+
+.portfolio_wrapper .card:hover span {
+    background-position: bottom center;
 }

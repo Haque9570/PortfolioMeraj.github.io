@@ -28,6 +28,18 @@
         color: #ffffff;
     }
     /* Banner wrapper */
+    /* Banner wrapper */
+    .banner_wrapper {
+        width: 100%;
+        height: auto;
+        min-height: 555px;
+        background-image: url('../images/bg3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 200px 0 100px 0;
+    }
     /* About */
     .about_wrapper ul.nav-pills {
         width: 70%;
@@ -54,12 +66,12 @@
         width: 100%;
         height: auto;
         min-height: 555px;
-        background-image: url('/images/bgMob1.png');
+        background-image: url('../images/bgMob1.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: scroll;
-        padding: 300px 0 0 0;
+        padding: 300px 0 100px 0;
     }
     /* About */
     .about_wrapper ul.nav-pills {
