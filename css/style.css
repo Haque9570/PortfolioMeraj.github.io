@@ -19,7 +19,7 @@
     /* Background Color */
     --primary-color: #fd4766;
     --scondary-color: black;
-    --bg-dark-blue: #000411;
+    --bg-dark-blue: #00061b;
     --bg-white: white;
     --gray-color: gray;
     --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #0080b3 100%);
@@ -332,4 +332,81 @@ button {
 
 .portfolio_wrapper .card:hover span {
     background-position: bottom center;
+}
+
+
+/* 6. Contact */
+
+.contact_wrapper .form-control,
+.contact_wrapper textarea {
+    background-color: transparent;
+    border-color: var(--gray-color);
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.contact_wrapper .form-control:hover,
+.contact_wrapper textarea:hover,
+.contact_wrapper .form-control:focus,
+.contact_wrapper textarea:focus {
+    border-color: var(--primary-color);
+    color: var(--primary-text);
+}
+
+.contact_wrapper .call_details {
+    color: var(--text-gray);
+}
+
+.contact_wrapper .call_details a {
+    font-weight: 700;
+    color: var(--text-gray);
+}
+
+
+/* 7. Footer */
+
+.footer_wrapper {
+    background-color: #000411;
+    padding: 20px 0;
+}
+
+.footer_wrapper .footer-logo img {
+    width: 50px;
+}
+
+.footer_wrapper .social-icon li {
+    margin: 6px;
+}
+
+.footer_wrapper .social-icon a {
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid var(--text-gray);
+    color: var(--gray-color);
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.footer_wrapper .social-icon a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-white);
+    box-shadow: 0 12px 50px 0 var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.footer_wrapper .copyright-text p {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.footer_wrapper .copyright-text a {
+    color: var(--primary-color);
 }
