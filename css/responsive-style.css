@@ -49,6 +49,11 @@
     .portfolio_wrapper .card {
         min-height: 650px;
     }
+    /* Footer */
+    .footer_wrapper {
+        background-color: #000411;
+        padding: 20px 0;
+    }
 }
 
 @media(max-width:450px) {
